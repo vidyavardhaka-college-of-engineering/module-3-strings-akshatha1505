@@ -9,17 +9,13 @@
 //The copied String-2 is Nithin
 
 #include <stdio.h>
-int main() 
+int main()
 {
-	char str1[50], str2[50];
-	int i;
-	printf("Enter a string-1: ");
-	scanf("%s",str1);
-	for ()                  //Complete the code in for-loop & copy logic
-  {                          
-		str2[i]= ;
-	}
-	str2[i]= ;                  //Complete the statement
-	printf("The copied String-2 is %s",str2);
-	return 0;
+char str1[50], str2[50];
+int i;
+printf("Enter a string-1: ");
+scanf("%s",str1);
+ strcpy(str2,str1);
+printf("The copied String-2 = %s",str2);
+return 0;
 }
