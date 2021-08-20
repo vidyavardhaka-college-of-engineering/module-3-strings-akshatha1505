@@ -7,20 +7,28 @@
 //Enter the string: nithin
 //Number of vowels in the string = 2
 
-#include <stdio.h>
-int main()
-{
-  int c = 0, count = 0;
-  char s[1000];
+	#include <stdio.h>
+	int main()
+	{
+	  int c = 0, count = 0;
+	  char s[1000];
+	
 
-  printf("Input a string: ");
-  scanf("%s", s);
+	  printf("Input a string: ");
+	  scanf("%s", s);
+	
 
-  while (s[c] != '\0') {
-                               //place logic to find the vowel
-  }
+	  while (s[c] != '\0')
+	  {
+	    if(s[c]=='a'||s[c]=='e'||s[c]=='i'||s[c]=='o'||s[c]=='u'||s[c]=='A'||s[c]=='E'||s[c]=='I'||s[c]=='O'||s[c]=='U')
+	    count++;
+	    c++;
+	  }
+	
 
-  printf("Number of vowels in the string = %d", count);
+	  printf("Number of vowels in the string = %d", count);
+	
 
-  return 0;
-}
+	  return 0;
+	}
+
