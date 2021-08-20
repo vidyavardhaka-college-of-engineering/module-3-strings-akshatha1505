@@ -9,11 +9,15 @@ Complete the given program with string declaration/initialization & read/print t
 //The input string is Vidyavardhaka
 
 #include <stdio.h>
+#include <string.h>
 int main() 
 {
-char a[20];                    
-printf("Enter a String: ");
-scanf("%s",a);                      
-printf("The input string is %s",a);                     
+  char str[50];                    //Declare the string
+  printf("Enter a String: ");
+  scanf("%s",str);
+  printf("The input string is %s",str);
+                  //read the string from user
+                      //Print the string
 return 0;
 }
+© 2021 GitHub, Inc.
