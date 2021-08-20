@@ -9,14 +9,12 @@ Complete the given program with string declaration/initialization & read/print t
 //The input string is Vidyavardhaka
 
 #include <stdio.h>
-#include <string.h>
+
 int main() 
 {
-  char str[50];                    //Declare the string
+  char a[50];                               //Declare the string
   printf("Enter a String: ");
-  gets(str);
-  printf("The input string is %s",str);
-                  //read the string from user
-                      //Print the string
-return 0;
+  gets(a);                                  //read the string from user
+  printf("The input string is %s",a);       //Print the string
+  return 0;
 }
