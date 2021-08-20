@@ -14,10 +14,9 @@ int main()
 {
   char str[50];                    //Declare the string
   printf("Enter a String: ");
-  scanf("%s",str);
+  gets(str);
   printf("The input string is %s",str);
                   //read the string from user
                       //Print the string
 return 0;
 }
-© 2021 GitHub, Inc.
